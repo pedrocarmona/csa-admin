@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require "faker"
-
 namespace :anonymizer do
   desc "Anonymize all private data (dev only)"
   task run: :environment do
