@@ -118,6 +118,7 @@ GEM
     base64 (0.2.0)
     bcrypt (3.1.20)
     bcrypt_pbkdf (1.1.1)
+    bcrypt_pbkdf (1.1.1-arm64-darwin)
     benchmark (0.4.0)
     bigdecimal (3.1.9)
     bindex (0.8.1)
@@ -206,6 +207,7 @@ GEM
     faraday-net_http (3.4.0)
       net-http (>= 0.5.0)
     ffi (1.17.1)
+    ffi (1.17.1-aarch64-linux-gnu)
     ffi (1.17.1-arm64-darwin)
     ffi (1.17.1-x86_64-linux-gnu)
     fiber-annotation (0.2.0)
@@ -374,10 +376,13 @@ GEM
     net-sftp (4.0.0)
       net-ssh (>= 5.0.0, < 8.0.0)
     net-smtp (0.5.0)
+      net-protocol
     net-ssh (7.3.0)
     nio4r (2.7.4)
     nokogiri (1.18.2)
       mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
+    nokogiri (1.18.2-aarch64-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.18.2-arm64-darwin)
       racc (~> 1.4)
@@ -589,6 +594,7 @@ GEM
     sorbet-runtime (0.5.11784)
     sqlite3 (2.5.0)
       mini_portile2 (~> 2.8.0)
+    sqlite3 (2.5.0-aarch64-linux-gnu)
     sqlite3 (2.5.0-arm64-darwin)
     sqlite3 (2.5.0-x86_64-linux-gnu)
     sshkit (1.23.2)
@@ -605,6 +611,7 @@ GEM
       railties (>= 7.0.0)
       tailwindcss-ruby (~> 3.0)
     tailwindcss-ruby (3.4.17)
+    tailwindcss-ruby (3.4.17-aarch64-linux)
     tailwindcss-ruby (3.4.17-arm64-darwin)
     tailwindcss-ruby (3.4.17-x86_64-linux)
     temple (0.10.3)
@@ -612,6 +619,7 @@ GEM
       unicode-display_width (>= 1.1.1, < 4)
     thor (1.3.2)
     thruster (0.1.10)
+    thruster (0.1.10-aarch64-linux)
     thruster (0.1.10-arm64-darwin)
     thruster (0.1.10-x86_64-linux)
     tilt (2.6.0)
@@ -647,6 +655,7 @@ GEM
     zeitwerk (2.7.1)
 
 PLATFORMS
+  aarch64-linux
   arm64-darwin
   ruby
   x86_64-linux-gnu
@@ -760,6 +769,7 @@ CHECKSUMS
   base64 (0.2.0) sha256=0f25e9b21a02a0cc0cea8ef92b2041035d39350946e8789c562b2d1a3da01507
   bcrypt (3.1.20) sha256=8410f8c7b3ed54a3c00cd2456bf13917d695117f033218e2483b2e40b0784099
   bcrypt_pbkdf (1.1.1) sha256=2f9077dde837d1f0dd2eb0f9e5327c6871c68ebc8eba88870fb6b7956e1e2b13
+  bcrypt_pbkdf (1.1.1-arm64-darwin) sha256=f35a468372a182b363086d810f6f7ee62d6ea55efbf04eb2374290c30ee4c7ef
   benchmark (0.4.0) sha256=0f12f8c495545e3710c3e4f0480f63f06b4c842cc94cec7f33a956f5180e874a
   bigdecimal (3.1.9) sha256=2ffc742031521ad69c2dfc815a98e426a230a3d22aeac1995826a75dabfad8cc
   bindex (0.8.1) sha256=7b1ecc9dc539ed8bccfc8cb4d2732046227b09d6f37582ff12e50a5047ceb17e
@@ -803,6 +813,7 @@ CHECKSUMS
   faraday-cookie_jar (0.0.7) sha256=f3cbbe6f2de3d4028f00a67ae4196b99348a6dc3c065fdae6d3c7123fa8b1402
   faraday-net_http (3.4.0) sha256=a1f1e4cd6a2cf21599c8221595e27582d9936819977bbd4089a601f24c64e54a
   ffi (1.17.1) sha256=26f6b0dbd1101e6ffc09d3ca640b2a21840cc52731ad8a7ded9fb89e5fb0fc39
+  ffi (1.17.1-aarch64-linux-gnu) sha256=c5d22cb545a3a691d46060f1343c461d1a8d38c3fd71b96b4cbbe6906bf1fd38
   ffi (1.17.1-arm64-darwin) sha256=a8e04f79d375742c54ee7f9fff4b4022b87200a4ec0eb082128d3b6559e67b4d
   ffi (1.17.1-x86_64-linux-gnu) sha256=8c0ade2a5d19f3672bccfe3b58e016ae5f159e3e2e741c856db87fcf07c903d0
   fiber-annotation (0.2.0) sha256=7abfadf1d119f508867d4103bf231c0354d019cc39a5738945dec2edadaf6c03
@@ -870,6 +881,7 @@ CHECKSUMS
   net-ssh (7.3.0) sha256=172076c4b30ce56fb25a03961b0c4da14e1246426401b0f89cba1a3b54bf3ef0
   nio4r (2.7.4) sha256=d95dee68e0bb251b8ff90ac3423a511e3b784124e5db7ff5f4813a220ae73ca9
   nokogiri (1.18.2) sha256=93791cfb33186fe077eb9e1b8a6855b5621e328f81f565334572fa398366f8bf
+  nokogiri (1.18.2-aarch64-linux-gnu) sha256=74e0f9a7487a30a2957f46c5113d58f836436b033c9906e0bc6fee9d8cdafabf
   nokogiri (1.18.2-arm64-darwin) sha256=8288ec7a296e2510ca9bd053c0c5989f11260f8c07bc3e9afbafa536f7077281
   nokogiri (1.18.2-x86_64-linux-gnu) sha256=9330ced4a976604865c2a76ce158e2bc608fa83999552e85a32ec06f85f427db
   openssl (3.3.0) sha256=ff3a573fc97ab30f69483fddc80029f91669bf36532859bd182d1836f45aee79
@@ -949,6 +961,7 @@ CHECKSUMS
   solid_queue (1.1.3) sha256=c7b4a84819eca6a61250aa8d7e48b8ded6882026e78ee21d3701d372ca741aa2
   sorbet-runtime (0.5.11784) sha256=c4e2402adb446d1bbb4ad1620797dbca42af7b6d2304263ec2a8be69dbda1f3a
   sqlite3 (2.5.0) sha256=87fa0036e6369c3f3cfeca749865c2b2b63649d3b17b223d1939a8eed4841a6b
+  sqlite3 (2.5.0-aarch64-linux-gnu) sha256=302085c3b932c027bc8de9f45fb5d0a3dc502357908dcc8f9bc8a92e4e9c7ab1
   sqlite3 (2.5.0-arm64-darwin) sha256=65370ddbc7bd7e65a03c18f8bf0e9be0f4f3cf50f758f8c1d3181aece5515ecf
   sqlite3 (2.5.0-x86_64-linux-gnu) sha256=c62c8d625da7e2ce93d694f02cd9c9d537638f56b09f2e8f28bea2d030b3923b
   sshkit (1.23.2) sha256=76d7088fddeaf3ac37bad20e7121f7352367cae6bb0cdbc7d7354efc714d213b
@@ -957,12 +970,14 @@ CHECKSUMS
   strscan (3.1.2) sha256=5529ff36c95fe752b8489f2e6c7f4f230fd9904e0b24fdc6e0833436c63ee2e3
   tailwindcss-rails (3.3.1) sha256=5dcc010ee90d53a59f40eff1f2706bc0b1d77fd3713a0fb196ff698bc4529dfe
   tailwindcss-ruby (3.4.17) sha256=464fb7cc45f1bd7446af3457a2007651eee07491df9b03ae2f1ac53b5203c427
+  tailwindcss-ruby (3.4.17-aarch64-linux) sha256=a013deb088c6f32d62bb17fa804b5599486e60d76dd826d4be7697a92e881284
   tailwindcss-ruby (3.4.17-arm64-darwin) sha256=07d83952b0bd380fd759e7b95ea75ee3babe08425ea290d078a50cb592791658
   tailwindcss-ruby (3.4.17-x86_64-linux) sha256=5c607785d4d38d3d70f5ee5cb6a0e846fa1de32f911a7dcaca9cb94feaa864ff
   temple (0.10.3) sha256=df3145fe6577af1e25387eb7f7122d32ed51bdb6f2e7bb0f4fbf07b66151913b
   terminal-table (4.0.0) sha256=f504793203f8251b2ea7c7068333053f0beeea26093ec9962e62ea79f94301d2
   thor (1.3.2) sha256=eef0293b9e24158ccad7ab383ae83534b7ad4ed99c09f96f1a6b036550abbeda
   thruster (0.1.10) sha256=80cbeaa660312e24c779048e2c4a73d973a4a99b4252492f0649fbfb63e2efa6
+  thruster (0.1.10-aarch64-linux) sha256=70f446efa6d3b4839a18773de032aed8a43e4856bbc1c043ef396e4ccb1524e6
   thruster (0.1.10-arm64-darwin) sha256=6327cf0a923b0738900d4c1443eef40a0c6332a06fe92d8b8c9c18fb5258c7f0
   thruster (0.1.10-x86_64-linux) sha256=706788dd54c1495aff4e9874973f50a0dfca53620038e1dd27b70cc9eee2a0d8
   tilt (2.6.0) sha256=263d748466e0d83e510aa1a2e2281eff547937f0ef06be33d3632721e255f76b
